@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "index/index",
+    "home/home",
+    "page/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "邮寄未来的信件",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}
