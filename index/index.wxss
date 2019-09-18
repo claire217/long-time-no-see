@@ -1,0 +1,36 @@
+/**index.wxss**/
+.userPart {
+  display: flex;
+  flex-direction: column;
+  /* 调整主轴方向为水平
+     居中
+   */
+  align-items: center;
+}
+
+.userPhoto {
+  width: 100px;
+  height: 100px;
+  margin: 65px 20px 0 20px;
+  border-radius: 50%;
+}
+
+/* 网名的颜色 */
+.userName {
+  color: #aaa;  
+}
+
+.entry {
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 92px;
+  background: #ACD6FF;
+}
+
+.entry-hover {
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  background: #66B3FF;
+}

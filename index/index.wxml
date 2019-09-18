@@ -1,0 +1,12 @@
+<view class="container">
+   <view class="userPart">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userPhoto" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userName">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<view>
+  <button class="entry" bindtap="entry" hover-class="entry-hover">进入</button>
+</view>
